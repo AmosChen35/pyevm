@@ -1,9 +1,9 @@
 import logging
 from typing import Tuple
 
-from instructions.binary_maths import *
-from instructions.gas_costs import op_cost
-from instructions.instruction import Instruction, StopExecutionException
+from pyevm.instructions.binary_maths import *
+from pyevm.instructions.gas_costs import op_cost
+from pyevm.instructions.instruction import Instruction, StopExecutionException
 
 logger = logging.getLogger('pyevm')
 

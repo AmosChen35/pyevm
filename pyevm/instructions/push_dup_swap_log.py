@@ -1,8 +1,8 @@
 import logging
 from typing import Tuple, List
 
-from instructions.gas_costs import op_cost
-from instructions.instruction import Instruction
+from pyevm.instructions.gas_costs import op_cost
+from pyevm.instructions.instruction import Instruction
 
 logger = logging.getLogger('pyevm')
 

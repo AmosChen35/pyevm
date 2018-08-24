@@ -1,10 +1,10 @@
-from instructions.block_info import *
-from instructions.comparison_bitwise import *
-from instructions.environmental import *
-from instructions.push_dup_swap_log import *
-from instructions.sha_op import *
-from instructions.stack_memory_storage_flow import *
-from instructions.stop_arithmetic import *
+from pyevm.instructions.block_info import *
+from pyevm.instructions.comparison_bitwise import *
+from pyevm.instructions.environmental import *
+from pyevm.instructions.push_dup_swap_log import *
+from pyevm.instructions.sha_op import *
+from pyevm.instructions.stack_memory_storage_flow import *
+from pyevm.instructions.stop_arithmetic import *
 
 instruction_set = {
     0x00: Stop(),

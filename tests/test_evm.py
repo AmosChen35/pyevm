@@ -1,8 +1,8 @@
 import pytest
 
-from evm import VirtualMachine, StackOverflowException
-from instructions.binary_maths import decimal_to_twos_complement_binary, twos_complement_binary_to_decimal
-from instructions.instruction_set import instruction_set, StopExecutionException
+from pyevm.evm import VirtualMachine, StackOverflowException
+from pyevm.instructions.binary_maths import decimal_to_twos_complement_binary, twos_complement_binary_to_decimal
+from pyevm.instructions.instruction_set import instruction_set, StopExecutionException
 
 
 @pytest.fixture

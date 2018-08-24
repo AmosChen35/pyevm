@@ -1,6 +1,6 @@
 from typing import Dict, List, Tuple
 
-from instructions.instruction import Instruction, UnknownInstructionException
+from pyevm.instructions.instruction import Instruction, UnknownInstructionException
 
 
 class StackEmptyException(Exception):
